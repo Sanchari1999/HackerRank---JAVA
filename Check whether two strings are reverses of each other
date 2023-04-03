@@ -1,0 +1,23 @@
+Algorithm 01:
+Read in two input strings s1 and s2.
+Check if the lengths of the strings are equal. If they are not equal, then the strings cannot be reverses of each other, so return false.
+Initialize two pointers, i and j, to the first and last characters of s1, respectively.
+While i is less than or equal to j, do the following:
+If s1[i] is not equal to s2[j], then the strings are not reverses of each other, so return false.
+Increment i and decrement j.
+If the loop completes without returning false, then the strings are reverses of each other, so return true.
+
+Algorithm 02:
+Read in two input strings s1 and s2.
+Check if the lengths of the strings are equal. If they are not equal, then the strings cannot be reverses of each other. So return false. 
+Reverse one of the strings using a loop or a built-in function. 
+Compare the reversed string to the other string, and accordingly print whether they are reverses of each other. 
+
+Algorithm 03:
+Read in two input strings s1 and s2.
+Check if the lengths of the strings are equal. If they are not equal, then the strings cannot be reverses of each other. So return false. 
+Create a StringBuilder object and append the characters of one of the strings in reverse order to it. 
+Compare the StringBuilder object to the other string. If they are the same, then the original strings are reverses of each other. Return true or false accordingly. 
+
+[Note: A stringbuilder object is a mutable sequence of characters. We can append characters to a StringBuilder object one by one, or we can append an entire string to it at once. In this case, we want to append the characters of one of the input strings in reverse order to the StringBuilder object. We do this by iterating over the characters of the string in reverse order, and appending each character to the StringBuilder object using its append() method. ]
+
